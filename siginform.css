@@ -16,52 +16,48 @@ h1 {
     width: 600px;
     height: 400px;
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 30%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-input {
+input[type=text] {
     width: 400px;
     height: 50px;
     padding-left: 10px;
     border: 1px solid lightgray;
+    color: lightgray;
 }
 
 .username {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-content: space-between; */
-    /* width: 300px; */
-    /* height: 50px; */
+    padding: 8px 20px;
+    margin: 4px 0; 
 }
 
 .password {
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 8px 20px;
+    margin: 4px 0;
 }
 
 button {
     background-color: #7dd9d5;
     color: white;
-    width: 100px;
-    height: 30px;
+    width: 120px;
+    height: 40px;
     border: none;
+    margin: 10px;
+}
+
+input[type=checkbox] {
+    color: lightgray;
+    border-color: lightgray;
 }
 
 .check {
-    border: 1px solid red;
-    width: 20px;
-    height: 20px;
-    float: left;
-}
-
-.container {
-    border: 2px solid blue;
-    width: 20px;
-    height: 20px;
-    float: left;
+    /* border: 1px solid red; */
+    margin: 30px;
     position: absolute;
-    top: 80%;
-    left: 0;
+    top: 75%;
+    left: 10%;
+    float: left;
 }
